@@ -35,17 +35,16 @@ console.log(chalk.bgRed('W E L C O M E'));
   
 console.log('')  
 
-console.log(chalk.bgGreen('S T U M B L E L I T E'));  
+console.log(chalk.bgGreen('S T U M B L E V I P S C R I P'));  
   
 console.log('')  
   
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Natasya#0001')} - Credit to special person : @dkmpostor & @Eskey ft @xDast#8745 
+  console.log(`TROPHY DAN CROWN HACK BY [Tanzz] 
 `);
 	
-console.log(`${chalk.bgRed(`
-1. GRIND TROPHY
-2. GRIND CROWN
+console.log(`${chalk.bgBlue(`
+1. TROPHY HACK
+2. CROWN HACK
 SILAHKAN PILIH`)} 
 `);
 	
@@ -62,7 +61,7 @@ const round = rs.question(`[+] Select Number  : `);
     const result = await GoStumble(auth);
     if (!result) {
 
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Wrong Code :`));
+      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Code Not Valid :`));
       
 
     } else if (result.includes('User')) {
@@ -83,7 +82,7 @@ console.log(chalk.yellow(`Trophy : ${trophy}`))
 console.log('')
 console.log(chalk.cyan(`Crown : ${crown}`))
 console.log('')
-console.log(chalk.red(`Succes Bro`));
+console.log(chalk.red('Akun Kamu Terkena Benetttt Tobatt !!'));
      
       
       await GoStumble(auth);
